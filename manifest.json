@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "My Captcha",
+  "version": "1.0",
+
+  "description": "Captcha parser for vtop beta",
+
+  "content_scripts": [
+    {
+      "matches": ["https://vtopbeta.vit.ac.in/vtop/"],
+      "js": [
+      "buffer.js",
+      "bundle.js",
+      "captcha.js"
+      ]
+    }
+  ]
+}
